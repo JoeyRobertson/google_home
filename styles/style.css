@@ -11,13 +11,31 @@ li {
   display: inline;
 }
 
-#navbar ul li{
+#navbar ul{
   float: right;
   margin-left: 8px;
 }
 
-#navbar ul li img {
-  margin-top: -5px;
+#navbar ul li {
+  padding-right: 25px;
+  margin-top: -15px;
+  display: inline-block;
+}
+
+#navbar ul li button {
+  background-color: #4683ea;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  padding: 7px 11px;
+}
+
+#menuButton {
+  margin-top: -16px;
+  margin-left: -16px;
+  position: absolute;
   opacity: 0.8;
 }
 
@@ -32,6 +50,7 @@ li {
   display: inline-block;
   margin: auto;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .center input {
@@ -60,6 +79,7 @@ input{
 
 button {
   margin-right: 6px;
+  margin-top: 20px;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 2px;
@@ -74,9 +94,9 @@ button:hover {
 
 
 #bottom {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 105%;
+  width: 100%;
   margin-left: -20px;
   margin-right: -20px;
   overflow: auto;
@@ -92,7 +112,7 @@ button:hover {
 
 #right {
   float: right;
-  margin-right: 85px;
+  margin-right: 45px;
 }
 
 #bottom ul li {
