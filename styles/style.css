@@ -22,8 +22,10 @@ li {
 }
 
 .center {
-  position: absolute;
+  position: fixed;
   top: 109px;
+  text-align: center;
+  width: 100%;
 }
 
 .center img {
@@ -33,14 +35,27 @@ li {
 }
 
 .center input {
-  width: 50%;
+  width: 600px;
+  height: 40px;
   align: center;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0 2px 2px rgb(203, 203, 203);
 }
 
 button {
-  padding: 10px 15px 10px 15px;
-  border-radius: 5px;
+  margin-right: 6px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 2px;
+  background-color: #f4f4f4;
+  font-weight: bold;
 }
+
+button:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+}
+
 
 #bottom {
   position: absolute;
