@@ -11,6 +11,13 @@ li {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 18px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
 #navbar ul{
   float: right;
   margin-left: 8px;
@@ -22,7 +29,7 @@ li {
   display: inline-block;
 }
 
-#navbar ul li button {
+#navbar ul li button, #searchBar #searchRight button {
   background-color: #4683ea;
   font-size: 13px;
   color: white;
@@ -117,4 +124,91 @@ button:hover {
 
 #bottom ul li {
   margin-left: 30px;
+}
+
+/******* Search Results Stuff *****/
+
+#searchBar {
+  background: #fafafa;
+  margin-top: -10;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#searchBar #searchLogo {
+  height: 44px;
+  width: 120px;
+  margin-top: 8px;
+  margin-left: -33px;
+  display: inline-block;
+}
+
+#searchBar input {
+ position: absolute;
+ margin-top: 9px;
+ margin-left: 12px;
+ width: 511px;
+ height: 40px;
+ border: 1px solid #f4f4f4;
+ border-radius: 1px;
+ box-shadow: 0 2px 2px rgb(203, 203, 203);
+ line-height: normal;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ text-indent: 8px;
+ background-color: white;
+ background: url(https://infogalactic.com/w/images/2/22/Google_microphone_logo.png);
+ background-repeat: no-repeat;
+ background-position: right 15px center;
+ background-size: 14px;
+}
+
+#searchRight li img {
+  display: inline;
+  float: right;
+  margin-right: 105px;
+  margin-top: -50px;
+  height: 28px;
+  width: 30px;
+  opacity: .55;
+}
+
+#searchRight button {
+  margin-top: -50px;
+  margin-right: 20px;
+  float: right;
+}
+
+#optionsbar {
+  font-size: 13px;
+  width: 50%;
+}
+
+#optionsbar li {
+  margin-left: 15px;
+}
+
+#optionsbar li:hover {
+  margin-bottom: 12px;
+  border-bottom: 3px solid #4285f4;
+  color: #4285f4;
+  font-weight: bold;
+}
+
+#optionsLeft {
+  margin-left: 100px;
+}
+
+#optionsRight {
+  float: right;
+  margin-top: -28px;
+  margin-right: 40px;
+}
+
+/** Search results **/
+#results
+{
+  margin-top: 3px;
+  display: block;
+  position: relative;
 }
