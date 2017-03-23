@@ -209,6 +209,20 @@ button:hover {
 #results
 {
   margin-top: 3px;
-  display: block;
-  position: relative;
+  margin-left: 140px;
+  margin-right: 700px;
+  display: inline-block;
+  position: absolute;
+}
+
+#counter {
+  color: #808080;
+  font-size: 13px;
+  font-family: 'Roboto', Arial, sans-serif;
+  padding-bottom: 14px;
+}
+
+#results a{
+  font-size: 18px;
+  line-height: 21.6px;
 }
